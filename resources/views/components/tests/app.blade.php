@@ -13,6 +13,9 @@
         <!-- Scripts -->
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
+        <header>
+            {{ $header }}
+        </header>
     <body>
         <div class="font-sans text-gray-900 antialiased">
             {{ $slot }}
